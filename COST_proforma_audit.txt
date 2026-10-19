@@ -1,0 +1,11 @@
+Base restoration: EXACT inputs and outputs; tolerance 0 before rounding
+initial_base: PASS; changed inputs=[]; max gap=7.28e-12 USD m; min cash headroom=9,382.1 USD m
+paid_member_growth_lower: PASS; changed inputs=['PAID_MEMBER_GROWTH']; max gap=1.46e-11 USD m; min cash headroom=9,222.9 USD m
+paid_member_growth_base: PASS; changed inputs=[]; max gap=7.28e-12 USD m; min cash headroom=9,382.1 USD m
+paid_member_growth_higher: PASS; changed inputs=['PAID_MEMBER_GROWTH']; max gap=1.46e-11 USD m; min cash headroom=9,541.3 USD m
+warehouse_sqft_per_store_lower: PASS; changed inputs=['WAREHOUSE_SQFT_PER_STORE']; max gap=1.46e-11 USD m; min cash headroom=9,296.2 USD m
+warehouse_sqft_per_store_base: PASS; changed inputs=[]; max gap=7.28e-12 USD m; min cash headroom=9,382.1 USD m
+warehouse_sqft_per_store_higher: PASS; changed inputs=['WAREHOUSE_SQFT_PER_STORE']; max gap=2.91e-11 USD m; min cash headroom=9,468.0 USD m
+restored_base: PASS; changed inputs=[]; max gap=7.28e-12 USD m; min cash headroom=9,382.1 USD m
+Partner check example: $215.83 - $205.65 = $+10.18/share
+Failures: 0

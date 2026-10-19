@@ -1,0 +1,64 @@
+COST linked pro-forma | one input at a time | FY2026-FY2030
+Saved base inputs: COST_proforma_sensitivity_base_inputs.json; full statements and checks: COST_proforma_sensitivity_details.json
+Displayed deltas and spans use displayed rounded outputs (USD m: 0.1; USD/share: 0.01); raw values are saved in the details file
+Initial base: FY2030 operating income 13,792.2 USD m; FCFE 5,875.0 USD m; model value/share $205.65
+
+Paid-member growth (PAID_MEMBER_GROWTH; % per year)
+Level   Actual input               Operating m    Delta m       FCFE m    Delta m  Value/share  Delta/share  Checks
+lower   5.3% per year                 13,155.6       -636.6      5,481.3       -393.7       195.92        -9.73 valid
+base    6.3% per year                 13,792.2         +0.0      5,875.0         +0.0       205.65        +0.00 valid
+higher  7.3% per year                 14,453.3       +661.1      6,289.2       +414.2       215.83       +10.18 valid
+Span, maximum minus minimum: operating income 1,297.7 (3/3 valid) USD m; FCFE 807.9 (3/3 valid) USD m; value/share 19.91 (3/3 valid) USD
+
+Warehouse footprint (WAREHOUSE_SQFT_PER_STORE; sq ft per warehouse)
+Level   Actual input               Operating m    Delta m       FCFE m    Delta m  Value/share  Delta/share  Checks
+lower   146,000 sq ft/warehouse       13,713.1        -79.1      5,847.6        -27.4       204.81        -0.84 valid
+base    147,000 sq ft/warehouse       13,792.2         +0.0      5,875.0         +0.0       205.65        +0.00 valid
+higher  148,000 sq ft/warehouse       13,871.3        +79.1      5,902.3        +27.3       206.48        +0.83 valid
+Span, maximum minus minimum: operating income 158.2 (3/3 valid) USD m; FCFE 54.7 (3/3 valid) USD m; value/share 1.67 (3/3 valid) USD
+
+Restored base matches initial base: PASS
+Restored FY2030 operating income 13,792.2 USD m; FCFE 5,875.0 USD m; model value/share $205.65
+
+Accounting checks by run and year | gaps and cash headroom in USD millions
+Run                         FY       BS gap     Cash gap     PP&E gap     Debt gap   Equity gap   Cash headroom
+initial_base              2026       0.0000       0.0000       0.0000       0.0000       0.0000         9,382.1
+initial_base              2027       0.0000       0.0000       0.0000       0.0000       0.0000        13,198.5
+initial_base              2028       0.0000       0.0000       0.0000       0.0000       0.0000        19,769.3
+initial_base              2029      -0.0000       0.0000       0.0000       0.0000       0.0000        26,698.1
+initial_base              2030       0.0000       0.0000       0.0000       0.0000       0.0000        32,573.1
+paid_member_growth_lower  2026      -0.0000       0.0000       0.0000       0.0000       0.0000         9,222.9
+paid_member_growth_lower  2027       0.0000       0.0000       0.0000       0.0000       0.0000        12,834.9
+paid_member_growth_lower  2028       0.0000       0.0000       0.0000       0.0000       0.0000        19,147.5
+paid_member_growth_lower  2029       0.0000       0.0000       0.0000       0.0000       0.0000        25,755.2
+paid_member_growth_lower  2030       0.0000       0.0000       0.0000       0.0000       0.0000        31,236.5
+paid_member_growth_base   2026       0.0000       0.0000       0.0000       0.0000       0.0000         9,382.1
+paid_member_growth_base   2027       0.0000       0.0000       0.0000       0.0000       0.0000        13,198.5
+paid_member_growth_base   2028       0.0000       0.0000       0.0000       0.0000       0.0000        19,769.3
+paid_member_growth_base   2029      -0.0000       0.0000       0.0000       0.0000       0.0000        26,698.1
+paid_member_growth_base   2030       0.0000       0.0000       0.0000       0.0000       0.0000        32,573.1
+paid_member_growth_higher 2026       0.0000       0.0000       0.0000       0.0000       0.0000         9,541.3
+paid_member_growth_higher 2027      -0.0000       0.0000       0.0000       0.0000       0.0000        13,565.3
+paid_member_growth_higher 2028       0.0000       0.0000       0.0000       0.0000       0.0000        20,401.8
+paid_member_growth_higher 2029      -0.0000       0.0000       0.0000       0.0000       0.0000        27,664.9
+paid_member_growth_higher 2030      -0.0000       0.0000       0.0000       0.0000       0.0000        33,954.1
+warehouse_sqft_per_store_lower 2026      -0.0000       0.0000       0.0000       0.0000       0.0000         9,296.2
+warehouse_sqft_per_store_lower 2027       0.0000       0.0000       0.0000       0.0000       0.0000        13,096.4
+warehouse_sqft_per_store_lower 2028      -0.0000       0.0000       0.0000       0.0000       0.0000        19,647.3
+warehouse_sqft_per_store_lower 2029       0.0000       0.0000       0.0000       0.0000       0.0000        26,552.6
+warehouse_sqft_per_store_lower 2030      -0.0000       0.0000       0.0000       0.0000       0.0000        32,400.2
+warehouse_sqft_per_store_base 2026       0.0000       0.0000       0.0000       0.0000       0.0000         9,382.1
+warehouse_sqft_per_store_base 2027       0.0000       0.0000       0.0000       0.0000       0.0000        13,198.5
+warehouse_sqft_per_store_base 2028       0.0000       0.0000       0.0000       0.0000       0.0000        19,769.3
+warehouse_sqft_per_store_base 2029      -0.0000       0.0000       0.0000       0.0000       0.0000        26,698.1
+warehouse_sqft_per_store_base 2030       0.0000       0.0000       0.0000       0.0000       0.0000        32,573.1
+warehouse_sqft_per_store_higher 2026       0.0000       0.0000       0.0000       0.0000       0.0000         9,468.0
+warehouse_sqft_per_store_higher 2027       0.0000       0.0000       0.0000       0.0000       0.0000        13,300.6
+warehouse_sqft_per_store_higher 2028       0.0000       0.0000       0.0000       0.0000       0.0000        19,891.3
+warehouse_sqft_per_store_higher 2029      -0.0000       0.0000       0.0000       0.0000       0.0000        26,843.7
+warehouse_sqft_per_store_higher 2030      -0.0000       0.0000       0.0000       0.0000       0.0000        32,746.0
+restored_base             2026       0.0000       0.0000       0.0000       0.0000       0.0000         9,382.1
+restored_base             2027       0.0000       0.0000       0.0000       0.0000       0.0000        13,198.5
+restored_base             2028       0.0000       0.0000       0.0000       0.0000       0.0000        19,769.3
+restored_base             2029      -0.0000       0.0000       0.0000       0.0000       0.0000        26,698.1
+restored_base             2030       0.0000       0.0000       0.0000       0.0000       0.0000        32,573.1

@@ -1,0 +1,9 @@
+COST one-at-a-time sensitivity | FY2026–FY2030 | USD millions except per share
+Warehouse footprint: 146,000 / 147,000 base / 148,000 square feet per warehouse
+Capital spending / net sales: 1.8% / 2.0% base / 2.2% each year
+Case                 FY2030 operating income       FY2030 FCFE          Value/share
+Base                        13,792.2         5,875.0                  $205.65
+Footprint lower             13,713.1         5,847.6                  $204.81
+Footprint higher            13,871.3         5,902.3                  $206.48
+Capex/sales lower           13,792.2         6,426.8                  $220.99
+Capex/sales higher          13,792.2         5,323.2                  $190.30

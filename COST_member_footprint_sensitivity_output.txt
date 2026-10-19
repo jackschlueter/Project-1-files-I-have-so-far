@@ -1,0 +1,9 @@
+COST one-at-a-time sensitivity | FY2026–FY2030 | USD millions except per share
+Paid-member growth: 5.3% / 6.3% base / 7.3% each year
+Warehouse footprint: 146,000 / 147,000 base / 148,000 square feet per warehouse
+Case                 FY2030 operating income       FY2030 FCFE          Value/share
+Base                        13,792.2         5,875.0                  $205.65
+Member growth lower         13,155.6         5,481.3                  $195.92
+Member growth higher        14,453.3         6,289.2                  $215.83
+Footprint lower             13,713.1         5,847.6                  $204.81
+Footprint higher            13,871.3         5,902.3                  $206.48
